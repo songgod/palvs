@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\pal\label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pal\layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pal\pal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pal\palexception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pal\palgeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pal\palstat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\feature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\geomfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\hashtable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\internalexception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\labelposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\linkedlist.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\pointset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\priorityqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\problem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\rtree.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\simplemutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pal\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pal\export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pal\feature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\geomfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\label.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\labelposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\layer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\pal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\palstat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\pointset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\priorityqueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\problem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pal\util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
